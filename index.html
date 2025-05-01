@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verificador de Precios</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/functions.js"></script>
+</head>
+<body>
+
+    <img src="./img/roy.jpg" alt="Logo Izquierdo" class="esquina-izquierda">
+    <img src="./img/rem.jpg" alt="Logo Derecho" class="esquina-derecha">
+
+    <p id="mensaje">Idioma actual: Español</p>
+    <input type="file" id="csvFile" accept=".csv">
+    <br>
+  <div class="contenedor-flex">
+   
+    <div class="page-container">
+      <div class="toggle-wrapper">
+        <input type="checkbox" id="toggle" class="offscreen" />
+        <label for="toggle" class="switch">
+          <span class="label-left">EN</span>
+          <span class="label-right">ES</span>
+        </label>
+      </div>
+
+      <div class="toggle-wrapper">
+        <input type="checkbox" id="theme-toggle" class="offscreen" />
+        <label for="theme-toggle" class="switch">
+          <span class="label-left">🌙</span>
+          <span class="label-right">☀️</span>
+        </label>
+      </div>
+    </div>
+
+    <div id="codigo">
+      <p id="respuesta">
+        <img src="./img/barcode.gif" alt="" width="15%" height="15%" />
+        <br />
+        Codigo de barras
+      </p>
+    </div>
+  </div>
+
+  <br>
+
+  <div id="fecha-hora"></div>
+
+</body>
+</html>
