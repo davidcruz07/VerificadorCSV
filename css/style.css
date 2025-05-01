@@ -9,7 +9,7 @@ text-align: center;
 }
 
 #codigo {
-    max-width: 300px; /* igual que el otro */
+    max-width: 300px; 
     width: auto;
     margin: 0 auto;
     padding: 10px;
@@ -20,35 +20,35 @@ text-align: center;
 }
 
 #codigo img {
-    width: 300px; /* o el tamaño que prefieras */
-    height: auto; /* mantiene proporciones */
+    width: 300px;
+    height: auto;
 }
   
 .contenedor-flex {
-    max-width: 700px; /* igual que el otro */
+    max-width: 700px;
     width: auto;
-    margin: 0 auto; /* esto lo centra horizontalmente */
+    margin: 0 auto; 
     background-color: #4180ab;
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    align-items: center; /* o center si quieres alinearlos verticalmente también */
-    gap: 0px; /* espacio entre los divs */
+    align-items: center; 
+    gap: 0px; 
     margin-top: 10px;
-    flex-wrap: wrap; /* para que se acomoden en pantallas pequeñas */
+    flex-wrap: wrap; 
 }
 
 .page-container {
-    max-width: 50px; /* o el ancho que tú quieras */
-    width: auto; /* se adapta hasta ese máximo */
-    margin: 0 auto; /* esto lo centra horizontalmente */
+    max-width: 50px; 
+    width: auto; 
+    margin: 0 auto; 
     background-color: #8ab3cf;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px; /* opcional para que no quede pegado */
+    padding: 10px;
 }
   
 
